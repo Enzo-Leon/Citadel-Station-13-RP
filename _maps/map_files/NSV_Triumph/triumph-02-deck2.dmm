@@ -750,6 +750,12 @@
 	frequency = 1379;
 	id_tag = "mining_fore_pump"
 	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_y = -31
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "cx" = (
@@ -2417,18 +2423,10 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/crew_quarters/sleep/Dorm_4)
 "hn" = (
-/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	id_tag = "mining_fore_airlock";
-	pixel_y = -26;
-	req_access = null;
-	req_one_access = null;
-	tag_airpump = "mining_fore_pump";
-	tag_chamber_sensor = "mining_fore_sensor";
-	tag_exterior_door = "mining_fore_outer";
-	tag_interior_door = "mining_fore_inner"
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
+/obj/structure/lattice,
+/obj/structure/railing,
+/turf/space,
+/area/space)
 "ho" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/blue,
@@ -5224,8 +5222,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/maintenance/dormitory)
 "pU" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 8
+/obj/machinery/door/airlock/glass_external{
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "mining_fore_outer";
+	locked = 1;
+	name = "Engineering Fore External Access"
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -8957,11 +8959,19 @@
 /turf/simulated/floor/tiled,
 /area/triumph/station/stairs_two)
 "BQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -24
+	},
+/obj/structure/cable/green,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1379;
+	id_tag = "mining_fore_pump"
+	},
 /obj/structure/cable/green{
-	d1 = 2;
 	d2 = 4;
-	icon_state = "2-4"
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -11057,18 +11067,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/port)
 "Ix" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
+/obj/structure/railing{
+	dir = 4
 	},
-/obj/structure/cable/green,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	frequency = 1379;
-	id_tag = "mining_fore_pump"
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
+/turf/space,
+/area/space)
 "Iy" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -11095,20 +11098,6 @@
 /obj/machinery/camera/network/civilian,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/port)
-"ID" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	frequency = 1379;
-	id_tag = "mining_fore_pump"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/extinguisher_cabinet{
-	pixel_y = -31
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
 "IF" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/machinery/atmospherics/portables_connector{
@@ -11373,14 +11362,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/recreation_area)
-"Jl" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1379;
-	id_tag = "mining_fore_pump"
-	},
-/obj/machinery/camera/network/cargo,
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
 "Jn" = (
 /turf/simulated/floor/lino,
 /area/crew_quarters/coffee_shop)
@@ -11601,7 +11582,21 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "Kc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/door/airlock/glass_external{
+	frequency = 1379;
+	icon_state = "door_locked";
+	id_tag = "mining_fore_outer";
+	locked = 1;
+	name = "Engineering Fore External Access"
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1379;
+	master_tag = "mining_fore_airlock";
+	name = "exterior access button";
+	pixel_y = -23;
+	req_one_access = list(48)
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "Kd" = (
@@ -12653,6 +12648,16 @@
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	id_tag = "mining_fore_airlock";
+	pixel_y = 28;
+	req_access = null;
+	req_one_access = null;
+	tag_airpump = "mining_fore_pump";
+	tag_chamber_sensor = "mining_fore_sensor";
+	tag_exterior_door = "mining_fore_outer";
+	tag_interior_door = "mining_fore_inner"
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -14082,24 +14087,6 @@
 /obj/structure/closet/secure_closet/cargotech,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
-"St" = (
-/obj/machinery/door/airlock/glass_external{
-	frequency = 1379;
-	icon_state = "door_locked";
-	id_tag = "mining_fore_outer";
-	locked = 1;
-	name = "Engineering Fore External Access"
-	},
-/obj/machinery/access_button{
-	command = "cycle_exterior";
-	frequency = 1379;
-	master_tag = "mining_fore_airlock";
-	name = "exterior access button";
-	pixel_y = -23;
-	req_one_access = list(48)
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
 "Su" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -15063,16 +15050,6 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
 /area/maintenance/dormitory)
-"Vj" = (
-/obj/machinery/door/airlock/glass_external{
-	frequency = 1379;
-	icon_state = "door_locked";
-	id_tag = "mining_fore_outer";
-	locked = 1;
-	name = "Engineering Fore External Access"
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
 "Vk" = (
 /obj/structure/undies_wardrobe,
 /turf/simulated/floor/wood,
@@ -15223,7 +15200,9 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/crew_quarters/sleep/Dorm_9)
 "VD" = (
-/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
 /obj/machinery/meter,
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -15826,13 +15805,14 @@
 /turf/simulated/floor/wood,
 /area/crew_quarters/sleep/Dorm_4)
 "Xo" = (
-/obj/machinery/airlock_sensor{
-	id_tag = "mining_fore_sensor";
-	pixel_y = 26
-	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1379;
 	id_tag = "mining_fore_pump"
+	},
+/obj/machinery/camera/network/cargo,
+/obj/machinery/airlock_sensor{
+	id_tag = "mining_fore_sensor";
+	pixel_y = 26
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
@@ -23533,7 +23513,7 @@ ii
 rC
 ii
 Ed
-ii
+Ix
 ii
 br
 ZH
@@ -23815,7 +23795,7 @@ ii
 ii
 ii
 Ed
-ii
+Jg
 ZW
 vH
 vH
@@ -23957,7 +23937,7 @@ ii
 ii
 ii
 kD
-Ed
+hn
 vH
 vH
 vH
@@ -24099,7 +24079,7 @@ kD
 rC
 Ed
 Ed
-ii
+Jg
 vH
 vH
 ii
@@ -24241,7 +24221,7 @@ rC
 ii
 ii
 Ed
-ii
+Jg
 vH
 vH
 ii
@@ -24383,7 +24363,7 @@ rC
 ii
 ii
 Ed
-ii
+Jg
 vH
 vH
 ii
@@ -24525,7 +24505,7 @@ rC
 ii
 ii
 Ed
-ii
+Jg
 vH
 vH
 ii
@@ -24666,12 +24646,12 @@ ii
 Ed
 ii
 ii
-ei
-ei
-Vj
-St
-ei
-ei
+Ed
+Jg
+vH
+vH
+ii
+ii
 ii
 ii
 ii
@@ -24809,11 +24789,11 @@ kD
 Ed
 rC
 ei
-Jl
+ei
 pU
 Kc
-ID
 ei
+ii
 Ed
 rC
 kD
@@ -24954,8 +24934,8 @@ ei
 Xo
 VD
 cw
-hn
 ei
+ii
 ii
 ii
 Ed
@@ -25096,8 +25076,8 @@ ei
 NJ
 Tm
 BQ
-Ix
 ei
+ii
 ii
 ii
 Ed
