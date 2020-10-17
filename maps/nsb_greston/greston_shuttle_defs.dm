@@ -44,7 +44,7 @@
 	warmup_time = 10	//want some warmup time so people can cancel.
 	destination_tags = list(
 		"cc_trade_dock",
-		"tether_dockarm_d1l",
+		"greston_dockarm_d1l",
 		"nav_aerostat_south",
 		"nav_beach_e",
 		"nav_beach_c",
@@ -52,68 +52,18 @@
 	)
 
 //////////////////////////////////////////////////////////////
-// Tether Shuttle
-/datum/shuttle/autodock/ferry/tether_backup
-	name = "Tether Backup"
+// greston Shuttle
+/datum/shuttle/autodock/ferry/greston_backup
+	name = "greston Backup"
 	location = FERRY_LOCATION_OFFSITE	 // Offsite is the surface hangar
 	warmup_time = 5
 	move_time = 45
-	landmark_offsite = "tether_backup_low"
-	landmark_station = "tether_dockarm_d1a3"
-	landmark_transition = "tether_backup_transit"
-	shuttle_area = /area/shuttle/tether
-	docking_controller_tag = "tether_shuttle"
+	landmark_offsite = "greston_backup_low"
+	landmark_station = "greston_dockarm_d1a3"
+	landmark_transition = "greston_backup_transit"
+	shuttle_area = /area/shuttle/greston
+	docking_controller_tag = "greston_shuttle"
 
-//////////////////////////////////////////////////////////////
-// Mercenary Shuttle
-/datum/shuttle/autodock/multi/mercenary
-	name = "Mercenary"
-	warmup_time = 8
-	move_time = 60
-	current_location = "merc_base"
-	shuttle_area = /area/shuttle/mercenary
-	docking_controller_tag = "merc_shuttle"
-	announcer = "Automated Traffic Control"
-	arrival_message = "Attention. An unregistered vessel is approaching Virgo-3B."
-	departure_message = "Attention. A unregistered vessel is now leaving Virgo-3B."
-
-
-//////////////////////////////////////////////////////////////
-// Ninja Shuttle
-/datum/shuttle/autodock/multi/ninja
-	name = "Ninja"
-	warmup_time = 8
-	move_time = 60
-	can_cloak = TRUE
-	cloaked = TRUE
-	current_location = "ninja_base"
-	landmark_transition = "ninja_transit"
-	shuttle_area = /area/shuttle/ninja
-	docking_controller_tag = "ninja_shuttle"
-	announcer = "Automated Traffic Control"
-	arrival_message = "Attention. An unregistered vessel is approaching Virgo-3B."
-	departure_message = "Attention. A unregistered vessel is now leaving Virgo-3B."
-
-//////////////////////////////////////////////////////////////
-// Skipjack
-/datum/shuttle/autodock/multi/heist
-	name = "Skipjack"
-	warmup_time = 8
-	move_time = 60
-	can_cloak = TRUE
-	cloaked = TRUE
-	current_location = "skipjack_base"
-	landmark_transition = "skipjack_transit"
-	shuttle_area = /area/shuttle/skipjack
-	//docking_controller_tag = ??? doesn't have one?
-/*	destination_dock_targets = list(
-		"Mercenary base" = "merc_base",
-		"Tether spaceport" = "nuke_shuttle_dock_airlock",
-		)*/
-	announcer = "Automated Traffic Control"
-
-	arrival_message = "Attention. An unregistered vessel is approaching Virgo-3B."
-	departure_message = "Attention. A unregistered vessel is now leaving Virgo-3B."
 
 //////////////////////////////////////////////////////////////
 // ERT Shuttle
@@ -127,22 +77,11 @@
 	landmark_transition = "specops_transit"
 	shuttle_area = /area/shuttle/specialops
 	destination_tags = list(
-		"specops_base",
-		"aerostat_northwest",
-		"beach_e",
-		"beach_nw",
-		"tether_solars_ne",
-		"tether_solars_sw",
-		"tether_mine_nw",
-		"tether_space_NE",
-		"tether_space_SE",
-		"tether_space_SW",
-		"tether_dockarm_d2a2"	// Top of right docking arm
 		)
 	docking_controller_tag = "specops_shuttle_hatch"
 	announcer = "Automated Traffic Control"
-	arrival_message = "Attention. An NT support vessel is approaching Virgo-3B."
-	departure_message = "Attention. A NT support vessel is now leaving Virgo-3B."
+	arrival_message = "Attention. An NT support vessel is approaching Lumos-4."
+	departure_message = "Attention. A NT support vessel is now leaving Lumos-4."
 
 //////////////////////////////////////////////////////////////
 // RogueMiner "Belter: Shuttle

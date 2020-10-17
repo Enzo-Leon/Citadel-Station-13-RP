@@ -1,0 +1,561 @@
+"ac" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_gas)
+"ak" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"ar" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/drone_fabrication)
+"aC" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/obj/structure/railing,/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"aL" = (/turf/simulated/wall,/area/engineering/engine_smes)
+"aP" = (/obj/effect/step_trigger/teleporter/from_reactor,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"aZ" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"ba" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"bn" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"bu" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 5},/obj/structure/window/reinforced{dir = 1},/obj/machinery/door/window/northleft{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"by" = (/turf/simulated/wall,/area/engineering/hallway)
+"bF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"bM" = (/turf/simulated/wall,/area/engineering/drone_fabrication)
+"bQ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"bS" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"ci" = (/obj/machinery/atmospherics/pipe/vent/high_volume{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"cn" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"cq" = (/turf/simulated/wall/r_wall,/area/engineering/hallway)
+"cs" = (/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"cv" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"cN" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"cO" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"cU" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"db" = (/obj/structure/grille,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"dc" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"dk" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"dD" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"dF" = (/obj/structure/cable/heavyduty{icon_state = "1-4"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"ed" = (/obj/structure/railing{dir = 1},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"eg" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"eh" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"ep" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"ey" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"ez" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_gas)
+"eB" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/turf/simulated/floor/tiled,/area/engineering/storage)
+"eD" = (/obj/machinery/power/generator{anchored = 1; dir = 4},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"eF" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"eL" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"eO" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"eP" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"eQ" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/obj/structure/railing,/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"eU" = (/turf/simulated/floor/tiled,/area/crew_quarters/recreation_area_restroom)
+"eW" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"fl" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"fn" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"fp" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"fE" = (/obj/effect/floor_decal/rust,/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"fF" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 4; icon_state = "map"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"fG" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"fO" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 9},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"fU" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"fW" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"fY" = (/obj/effect/step_trigger/teleporter/from_reactor,/turf/simulated/floor/outdoors/grass/sif/lumos4,/area/greston/surfacebase/outside/outside1)
+"gn" = (/obj/item/storage/briefcase/fission/boron,/obj/structure/closet/crate/secure/engineering,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{name = "Control Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"gw" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"gE" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"gF" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"gV" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"gW" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"hb" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"hk" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"hm" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"hq" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"hu" = (/obj/structure/cable/heavyduty{icon_state = "1-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"hw" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"hz" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"hA" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/red,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"hL" = (/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,/obj/machinery/door/window/northleft{dir = 2},/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"hU" = (/obj/machinery/shower{dir = 8},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"hX" = (/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"ic" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"iG" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/locker_room)
+"iT" = (/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/uranium,/obj/machinery/camera/network/engine,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"iV" = (/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"jh" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/item/storage/briefcase/fission/plutonium,/obj/structure/closet/crate/secure/engineering,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"jj" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"jn" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"jH" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"jQ" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"jV" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"kb" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"kf" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"kk" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/obj/structure/railing,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"kn" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"ku" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"kQ" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"kT" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"kV" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"lk" = (/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"lr" = (/obj/machinery/alarm{pixel_y = 22},/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/fuelmixed,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"lA" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"lG" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"lT" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"ma" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"me" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"ms" = (/turf/simulated/floor/tiled,/area/engineering/engine_room)
+"mv" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"mD" = (/turf/simulated/wall/r_lead,/area/engineering/engine_monitoring)
+"mG" = (/obj/machinery/atmospherics/pipe/manifold/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"mV" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"nd" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/valve/digital{dir = 4; name = "Emergency Cooling Valve 2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"nf" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"ng" = (/obj/structure/cable/heavyduty{icon_state = "2-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"ni" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"nn" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"nE" = (/obj/machinery/power/sensor{name = "Powernet Sensor - Telecomms Subgrid"; name_tag = "Telecomms Subgrid"},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"nL" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"nY" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/storage)
+"of" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"og" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"oh" = (/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"om" = (/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"oo" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning/dust{dir = 4},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"op" = (/obj/machinery/power/breakerbox/activated{RCon_tag = "TELECOMMS"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"ow" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"oy" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"oE" = (/obj/machinery/computer/fission_monitor,/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"oT" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 6},/obj/structure/window/reinforced,/obj/machinery/door/window/northright{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"oU" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"pj" = (/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"po" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 10},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"pz" = (/obj/structure/cable/heavyduty{icon_state = "0-4"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"pE" = (/obj/structure/grille,/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/plating/external,/area/greston/outpost/solars_outside)
+"pP" = (/obj/structure/railing,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"pS" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"pW" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"pZ" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 4; icon_state = "map"},/obj/machinery/meter,/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"qb" = (/turf/simulated/wall/r_wall,/area/engineering/engine_smes)
+"qf" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"qo" = (/turf/simulated/floor/acid,/area/greston/surfacebase/outside/outside1)
+"qt" = (/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/uranium,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"qF" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"qJ" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"qR" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"qT" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"qV" = (/obj/machinery/power/tracker,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"rg" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_gas)
+"rp" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 1},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"rq" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"rw" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"rx" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"rB" = (/obj/machinery/atmospherics/trinary/atmos_filter{use_power = 0},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"rD" = (/obj/machinery/portable_atmospherics/canister/nitrogen/engine_setup,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"rG" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"rR" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"rW" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"sb" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"sc" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"sg" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/engineering/drone_fabrication)
+"sq" = (/obj/structure/cable/heavyduty{icon_state = "0-8"},/turf/simulated/floor/plating/external,/area/greston/outpost/solars_outside)
+"sr" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"sF" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"sH" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 9},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"sI" = (/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"sK" = (/turf/simulated/mineral/lumos4,/area/greston/surfacebase/outside/outside1)
+"sR" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"sX" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"tm" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"tz" = (/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"tA" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/terminal{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"tE" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"tG" = (/obj/structure/cable/heavyduty{icon_state = "0-2"},/obj/structure/cable/heavyduty{icon_state = "0-4"},/obj/structure/cable/heavyduty{icon_state = "0-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"uv" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"uE" = (/obj/structure/cable/heavyduty{icon_state = "1-4"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"uJ" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"uR" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/locker_room)
+"uW" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"vf" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"vm" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"vo" = (/turf/unsimulated/wall/planetary/lumos4,/area/greston/surfacebase/outside/outside1)
+"vv" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/storage)
+"vB" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"vD" = (/turf/simulated/wall/r_wall,/area/engineering/storage)
+"vF" = (/obj/structure/railing{dir = 1},/obj/structure/railing,/obj/effect/floor_decal/rust,/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"vI" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"vJ" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"vO" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"vQ" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -28},/turf/simulated/floor/tiled,/area/crew_quarters/recreation_area_restroom)
+"vZ" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"wc" = (/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"wl" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"ws" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/manifold/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"wt" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"wv" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"wD" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"wI" = (/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -28},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/engineering/break_room)
+"wK" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"wL" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"wR" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"wX" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"wY" = (/obj/machinery/shower{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"xa" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6},/obj/machinery/meter,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"xd" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"xe" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/sensor{name = "Powernet Sensor - Solar Farm Input"; name_tag = "Solar Farm Input"},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"xx" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"xP" = (/turf/simulated/wall,/area/engineering/engine_gas)
+"yb" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/storage)
+"yy" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/cable/green,/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"yz" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"yB" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"yJ" = (/obj/machinery/light/small,/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"yR" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"yT" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"yW" = (/obj/structure/cable/heavyduty{icon_state = "2-4"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"yX" = (/obj/machinery/door/airlock/vault{name = "Reactor"; req_one_access = null},/turf/simulated/floor/reinforced,/area/engineering/engine_airlock)
+"za" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"zg" = (/turf/simulated/floor/tiled,/area/engineering/drone_fabrication)
+"zl" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"zU" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Ai" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Ao" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Ar" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/meter,/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"AB" = (/obj/machinery/portable_atmospherics/canister/nitrogen/engine_setup,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"AC" = (/obj/effect/step_trigger/teleporter/from_reactor,/obj/structure/cable/ender{icon_state = "4-8"; id = "surface-solars"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"AD" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"AE" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/storage)
+"AI" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/drone_fabrication)
+"AK" = (/obj/structure/railing{dir = 4},/turf/simulated/floor/outdoors/grass/sif/lumos4,/area/greston/surfacebase/outside/outside1)
+"AW" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"Bk" = (/obj/machinery/atmospherics/pipe/manifold/visible/red,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Bo" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Bs" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Bt" = (/obj/structure/cable/heavyduty,/obj/structure/cable/heavyduty{icon_state = "0-2"},/obj/structure/cable/heavyduty{icon_state = "0-8"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"BC" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"BE" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/engineering/break_room)
+"BG" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"BJ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"BM" = (/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"BQ" = (/turf/simulated/floor/tiled,/area/engineering/engine_gas)
+"BX" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10; icon_state = "intact"},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"BY" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"CW" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/visible/yellow,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Db" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 10},/obj/structure/window/reinforced,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Dc" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Dk" = (/obj/item/storage/briefcase/fission,/obj/structure/closet/crate/secure/engineering,/obj/structure/window/reinforced{dir = 8},/obj/machinery/door/window/northleft{name = "Control Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"Dm" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Dr" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/machinery/meter,/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Dz" = (/obj/machinery/atmospherics/portables_connector,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"DE" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"DR" = (/turf/simulated/wall,/area/greston/outpost/solars_outside)
+"DS" = (/obj/effect/floor_decal/rust,/obj/structure/cable/heavyduty{icon_state = "1-4"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"DZ" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 6},/obj/machinery/meter,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Er" = (/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"EA" = (/turf/unsimulated/mineral,/area/greston/surfacebase/outside/outside1)
+"EH" = (/turf/simulated/wall/r_wall,/area/crew_quarters/recreation_area_restroom)
+"ES" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Fb" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Fc" = (/turf/simulated/floor/acid/deep,/area/greston/surfacebase/outside/outside1)
+"Fn" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Fx" = (/obj/effect/floor_decal/industrial/warning/dust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Fy" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"FL" = (/obj/structure/railing,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"FV" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"FY" = (/turf/simulated/wall,/area/engineering/break_room)
+"FZ" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Gd" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 5},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Gk" = (/turf/simulated/wall/r_wall,/area/crew_quarters/heads/chief)
+"Gt" = (/obj/structure/table/reinforced,/obj/item/multitool,/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"Gu" = (/obj/structure/cable/heavyduty{icon_state = "2-8"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"GE" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"GK" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"GS" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Hd" = (/turf/simulated/floor/tiled,/area/engineering/break_room)
+"He" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,/obj/effect/floor_decal/industrial/warning{dir = 1; icon_state = "warning"},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Hq" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"HB" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"HF" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled,/area/engineering/storage)
+"HG" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/break_room)
+"HM" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"HO" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"HV" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"Ic" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/break_room)
+"Ie" = (/turf/simulated/wall,/area/engineering/locker_room)
+"Ij" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"Iw" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"IA" = (/turf/simulated/wall,/area/engineering/storage)
+"IS" = (/turf/simulated/wall/r_lead,/area/engineering/engine_room)
+"IU" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 28},/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Jc" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Jq" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Ju" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Jy" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"JA" = (/obj/structure/closet/firecloset/full/double,/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"JF" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"JH" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"JL" = (/obj/effect/floor_decal/rust,/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"JZ" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Ka" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"Kd" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Kg" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/red,/obj/machinery/power/fission,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced{dir = 4},/obj/structure/window/phoronreinforced,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Kx" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Ky" = (/turf/simulated/floor/reinforced,/area/engineering/engine_airlock)
+"KJ" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"KT" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"KU" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"KV" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/locker_room)
+"KX" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"KZ" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Li" = (/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"Lr" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Lx" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"LM" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5; icon_state = "intact"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"LT" = (/obj/effect/floor_decal/industrial/warning/dust,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Ml" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"Mt" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"MP" = (/turf/simulated/wall/r_wall,/area/engineering/locker_room)
+"MR" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"MT" = (/turf/simulated/wall/r_wall,/area/engineering/engine_room)
+"MX" = (/obj/machinery/power/solar,/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Nk" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"NI" = (/turf/simulated/floor/tiled,/area/engineering/hallway)
+"NL" = (/turf/simulated/floor/outdoors/grass/sif/lumos4,/area/greston/surfacebase/outside/outside1)
+"NP" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"NR" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"NS" = (/turf/simulated/floor/outdoors/grass/sif/lumos4,/area/greston/outpost/solars_outside)
+"NT" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"NV" = (/obj/machinery/portable_atmospherics/canister/nitrogen/engine_setup,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Oa" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Od" = (/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Ol" = (/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Oo" = (/obj/structure/cable/heavyduty{icon_state = "0-4"},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"Or" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/obj/structure/railing{dir = 1},/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Ov" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"OB" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"OQ" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"OS" = (/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/silver,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"Pa" = (/obj/structure/railing{dir = 8},/turf/simulated/floor/outdoors/grass/sif/lumos4,/area/greston/surfacebase/outside/outside1)
+"Pe" = (/obj/machinery/portable_atmospherics/canister/nitrogen/engine_setup,/obj/machinery/door/window/northleft{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Ph" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Pl" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/crew_quarters/heads/chief)
+"Pw" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Px" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"PA" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 6},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"PB" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"PC" = (/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"PM" = (/turf/simulated/wall,/area/crew_quarters/recreation_area_restroom)
+"PN" = (/turf/unsimulated/mineral/lumos4,/area/greston/surfacebase/outside/outside1)
+"PP" = (/obj/machinery/light/small,/turf/simulated/floor/tiled,/area/engineering/hallway)
+"PS" = (/turf/simulated/wall,/area/engineering/engine_monitoring)
+"Qc" = (/obj/machinery/portable_atmospherics/canister/nitrogen/engine_setup,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Qj" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Qq" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 8},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Qw" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Qy" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"QA" = (/obj/machinery/door/airlock/glass_external,/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"QC" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"QJ" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"QN" = (/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/machinery/power/terminal{dir = 1},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Rf" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Rk" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Rq" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Rr" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6; icon_state = "intact"},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"RD" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/storage)
+"RI" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/meter,/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"RK" = (/obj/machinery/power/smes/buildable/engine,/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"RS" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/hallway)
+"RZ" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Sa" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"So" = (/obj/structure/cable/cyan{d2 = 8; icon_state = "0-8"},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Sp" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/drone_fabrication)
+"Sv" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Sx" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Sy" = (/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/obj/structure/cable/heavyduty{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Sz" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"SC" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"SQ" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"SR" = (/turf/simulated/floor/tiled,/area/engineering/storage)
+"SU" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/industrial/warning/dust{dir = 8},/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"SY" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Ta" = (/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"Tf" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Th" = (/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/turf/simulated/floor/tiled,/area/engineering/storage)
+"Tj" = (/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"TM" = (/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"TQ" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"TU" = (/turf/simulated/wall,/area/crew_quarters/heads/chief)
+"TX" = (/obj/effect/floor_decal/rust,/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/greston/surfacebase/outside/outside1)
+"Ui" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"Uo" = (/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"Up" = (/turf/simulated/floor/tiled,/area/engineering/locker_room)
+"Uq" = (/obj/machinery/power/smes/buildable{RCon_tag = "Telecomms"; cur_coils = 3},/obj/structure/cable/green,/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Ur" = (/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"Ut" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/crew_quarters/recreation_area_restroom)
+"Ux" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"UA" = (/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/reflectormixed,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled,/area/engineering/storage)
+"UC" = (/turf/simulated/wall,/area/engineering/engine_room)
+"UH" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"UK" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"UP" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"VC" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/controlmixed,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/machinery/door/window/northleft{dir = 2; name = "Control Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"VE" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"VF" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"VI" = (/turf/simulated/wall/r_wall,/area/engineering/engineering_airlock)
+"Wf" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Wu" = (/obj/machinery/shower{dir = 4},/turf/simulated/floor/tiled,/area/engineering/engineering_airlock)
+"Wz" = (/turf/simulated/wall,/area/engineering/engine_airlock)
+"WD" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"WM" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"WZ" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_gas)
+"Xb" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/engineering/storage)
+"Xq" = (/obj/machinery/atmospherics/pipe/simple/visible/black,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Xv" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled,/area/engineering/engine_monitoring)
+"XC" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled,/area/greston/surfacebase/outside/outside1)
+"Ya" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Yg" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_gas)
+"YC" = (/obj/structure/closet/crate/secure/engineering,/obj/item/storage/briefcase/fission/tungstencarbide,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/window/northleft{dir = 2; name = "Fuel Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"YG" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"YI" = (/obj/machinery/power/solar,/obj/structure/cable/yellow{d2 = 8; icon_state = "0-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled,/area/greston/outpost/solars_outside)
+"Zg" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/obj/structure/cable/heavyduty{icon_state = "1-2"},/turf/simulated/floor/plating/external,/area/engineering/engine_smes)
+"Zi" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/reinforced,/area/engineering/engine_room)
+"Zl" = (/obj/machinery/power/apc{name = "south bump"; pixel_y = -28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/engine_smes)
+"Zr" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"Zs" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/engineering/engine_airlock)
+"ZI" = (/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 28},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled,/area/engineering/locker_room)
+"ZK" = (/turf/simulated/wall/r_lead,/area/engineering/engine_airlock)
+"ZP" = (/obj/item/storage/briefcase/fission/beryllium,/obj/structure/closet/crate/secure/engineering,/obj/structure/window/reinforced{dir = 8},/obj/machinery/door/window/northleft{name = "Control Rods"; req_access = list(11)},/turf/simulated/floor/tiled,/area/engineering/storage)
+"ZQ" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+"ZW" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor/tiled/techfloor,/area/engineering/engine_room)
+
+(1,1,1) = {"
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNEAEAqoFcFcqoqoEAEAPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKqoFcFcqoqosKsKPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKqoFcFcsKsKsKsKsKsKsKsKsKsKsKsKPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKqoFcFcqosKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNEAEAPNPNPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKsKsKsKsKsKsKqoqoFcFcqoqoNLNLNLNLNLNLNLNLNLNLsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKEAPNPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKPNsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKqoqoFcFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKqoqoFcFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKNLNLNLsKNLNLNLNLNLqoqoFcFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKsKNLNLNLsKNLsKNLsKsKsKsKsKsKPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKNLsKsKsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLqoqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKsKsKNLNLNLNLNLNLNLNLNLNLsKsKsKPNPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKNLNLNLNLNLsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKPN
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKNLNLNLNLNLNLsKsKNLNLNLsKsKNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKvo
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKsKvo
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKvo
+PNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLsKvo
+sKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+sKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKPNPNPNPNPNPNPNPNPNPNPNPNsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvDvDvDvDvDvDvDvDMTMTMTMTMTMTMTMTMTMTMTMTMTMTMTqbqbqbqbqbqbqbqbsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAqtiTlrThUAOSYCUCcscscscscsDzDzcscscscscsDzDzaLOlOlOlOlOlOlqbsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAHFHFHFHFHFHFSRUCJycscscscsuWSvcscscscscsSvuWaLOlOlOlOlOlOlqbsKsKsKsKsKsKsKsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAXbSRSRSRAEybnYUCcscscscscswlmGZQBXWDRreyMtnLaLOlOlOlOlOlOlqbsKsKsKsKsKsKsKsKsKsKsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRZPDkgnRDSRSRUCcscscscscscscsZWmVeDicOQRfSoaLOlOlOlRKBCrwqbqbqbqbqbqbqbqbqbqbqbsKsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRVCjhRDSRSRmscscscscscsbQAiPhwsndCWqRzUjjaLOlOlOlQNOlxxOlOlOlOoLiLiLiLiLiGuqbsKsKNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAXbSRSRSRRDSRSRUCISISJycscskTcsYaBXWDRrpZhkTQaLOlOlOlwKOlxxcvKJKJbFKJKJKJnEOlTMqbNLNLNLOrHqUxESUxESUxESUxESUxESXCNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRRDSRSRUCxaofUKUKUKBGKZZWmVeDicsrHOyBBCBCBCBCpWBCfUJHOlOlwKOlSCtAUqOlTMqbNLNLNLWfcUsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAIAIAIASRRDIAUCUCAoISISISISWMmaPhHMogNTqRjQPBPwPwPwPwKUPwPwFVPwPwwLOlUHQCopOlTMqbNLNLNLOvwtsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrMlUrUrZsUrISISAoISDZrGrGnnwXdcJZJZrqOQdDcsaLOlOlOlOlOlOlJHOlOlOlOlSQOlOlOlTMqbNLNLNLWfcUsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrAWkQkQHVakISISgwISFyISISFnOBqTUKUKfpsRyzcsaLOlOlOlOlOlcvTfZlOlOlOlkVQCpzLiBtqbNLNLNLOvwtsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrZsUrUrUrUrISVEhArpZiFZISwvcsYGcscshqBsOacsxPxPxPxPxPBQWZxPxPxPxPxPOlOlOlOlTMqbNLNLNLWfcUsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrZsWzWzWzWzZKAoJuAouvAoISwvcsYGcscscshqrBcsxPomABrDsIsIbasIsIsIsIxPOlOlOlOlTMqbNLNLNLOvwtsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrZsyXKyKyKyyXQqZiKgZifFISwvcsYGcscscscsXqjHxPomABPesIsIegRqRqRqSYxPOlOlOlOlTMqbNLNLNLWfcUsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzeFZsyXKyKyKyyXAodkMRvfAoISwvcsYGcscscscsXqcsxPhLQcNVsIsIbasIsIsIsIxPOlOlOlOlTMqbNLNLNLOvwtsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLWzUrZsWzWzWzWzZKtmbnBkbngEISFncsYGcscscscshwvBDrscscscscscqfscscscscacKdKdKdDmZgvmRkciNLWfcUsFsFsFsFsFsFsFsFsFsFNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohPxohohohohmDISISISISISISwvcsLMVFVFVFVFVFuJArsHHebufnfnYgfnfnfnfnezJqJqJqQwkbhmgFgFsbpSwthbwthbwthbwthbwthbwtNPNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohPxohohohohPSPSPSPSPSPSPSkuAiAiAiAiAiAiAiQyRIDbgWoTwRwRzlwRwRwRwRrgDcDcDcNkBJlAqFqFsbeQkkkkkkkkkkkkkkkkkkkkkkaCNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohPxohohohohBYohohoEGtXvPScscscscscscscscscsxPsIsIsIsIsIbasIsIsIsIxPOlOlOlOldFSyJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLlklklkJLJLJLJLJLvFvFvFvFvFvFvFtGJLJLJLJLJLJLJLlklklklkJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLlklkngvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohPxohohohohohohohohohohPScscsowZrZrZrZrZrZrRqRqRqRqRqRqUiRqKXsIsIxPOlOlOlOlOlqbNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoNLBMErNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSmePxohohohohohohohohohxdPScscsSxcscscscscscsFYFYFYFYFYFYFYNIeObyPMPMPMPMPMPMPMEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLyWhuhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohPxohohohohohohohohohPxPScscsSxcscscscscsjHFYHdHdHdHdHdFYNIeONIPMeUeUeUPMeUeUEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLBMNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohbSmvmvmvmvmvmvmvmvmvUPmvZrZrRZcscscscscscsFYHdHdHdHdHdFYNIRSGEPMeUeUeUPMeUeUEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLTXErhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLPSohohohohohohohohohyJohPxPScscscscscscscscscsFYHdHdHdHdHdFYNINIeOPMeUeUeUeUeUeUEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMbMbMbMbMbMbMbMNINIbyNIeOFYFYFYFYFYFYFYFYFYFYFYHdHdHdHdHdFYNINIeOPMeUeUeUPMPMPMEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgsgbMNINIyRNIeOFYHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdFYNINIeOPMeUeUeUeUeUeUEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgarbMNINININIeOFYHdHdHdHdHdHdHdHdHdHdHdHdHdHdHdFYNINIePPMeUeUeUPMPMPMEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgAISpKaKaKaKalGFYwIHGBEHdHdHdHdHdHdHdHdHdHdHdHdFYNINIeOPMvQeUeUeUeUeUEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgzgbMNINININIeOFYFYFYIcFYFYFYFYFYFYFYFYFYHdFYFYFYNINIeOPMUtPMPMPMPMPMEHNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgzgbMNINININIeONIyRNIeONININININININIyRNININININININIeONIeONINININIIwcqNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMzgzgzgzgzgzgbMNINIADKaoyKaKaKaLxKaKaKajVNININININININININININIkfKavJKaKaKaflgVcqNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLbMbMbMbMbMbMbMbMNINIeONININININININIPPNIeONININININININININININIeONININIPPNIeONIcqNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRIAIASRRDIAIAIeIeIeIeIeIeIeKVIeIeIeIeIeIeIeNINININIeONINIVIVIwDeLVIVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRSRSRRDSRSRIeUpUpUpUpUpUpuRiGiGiGiGiGZIIeNINIPPNIeONINIVITaTjepPCVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRSRSRRDSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpIeTUTUTUTUcNTUTUVITaTjTjTaVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRSRSRvvybeBIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcwccNwcwcVITaTjTjTaVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAIAIAIAIAIASRSRSRSRSRSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcwcDEIjpjVIJATjTjJAVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcwccNwcwcVIJATjTjJAVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcwccNwcwcVIWuTjTjUoVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcwccNwcwcVIwYTjTjhUVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLBMvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIASRSRSRSRSRSRSRIeUpUpUpUpUpUpUpUpUpUpUpUpUpUpTUwcwcqJniPlwcVIWuTjTjUoVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLIAvDvDvDvDvDvDvDMPMPMPMPMPMPMPMPMPMPMPMPMPMPMPGkGkGkyyyyyyGkVIVIQAQAVIVINLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLTXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLAKqoFcqoPaNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLTXvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLErhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLAKqoFcqoPaNLNLBMNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLDSAC
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLNLhXNLedOdOdNLNLNLfENLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLErNLNLErNLNLNLErNLNLNLNLNLNLErNLNLErErhXErErNLaP
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLErhXhXErhXNLTXhXhXNLNLNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLErNLNLNLNLhXhXNLErErhXErNLhXErErErhXErfY
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLhXNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLErNLNLNLhXNLNLNLNLNLNLpPFLpPNLNLhXBMNLNLhXNLNLhXNLhXErNLNLNLNLNLNLNLNLErNLNLNLErNLhXErErhXErErNLErhXNLErErErNLErErfY
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLAKqoFcqoPaNLNLBMDRDRDRDRDRDRDRiVNSDRDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLfY
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLAKqoFcqoPaNLNLuEpEsqtzNSNSNSiVNStztzDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLDRtzNSNStzNSNStzNStzDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLDRtziVtziVNStztzNSiVDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLDRtziVtziViViVtztzBoDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLDRDRDRDRDRDRDRDRDRdbDRNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLlTIUNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLqVKTNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLxeNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLBoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLeWNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLtzNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLeWNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLeWNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLeWNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLfOHBvIHBvIHBHBvIHBvIHBvILrNRGSSaGSLrvIHBHBvIHBGSLrGSLrHBGSLrvILrGSLrLrGSLrvIHBvIHBGdNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLSzYIQJMXQJMXiVzaYIzaMXQJMXiVQJMXQJMXzaMXtzzaMXzaYIzaMXiVQJYIzaYIzaYItzzaYIQJMXQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLSzMXzaMXQJMXiVQJMXzaYIQJMXiVQJMXQJMXQJMXiVQJMXQJMXQJYItzzaYIQJMXQJMXiVQJMXQJMXQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLSzMXQJYIQJMXiVQJMXQJYIQJMXiVQJMXQJMXQJMXiVQJMXQJMXQJMXiVQJMXQJMXQJMXiVQJYIQJMXQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLSzMXQJMXQJYIiVQJMXQJMXzaMXiVQJMXQJMXQJMXiVQJMXQJMXQJMXiVQJMXQJMXQJMXiVzaYIzaYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLSUMXcOMXcOYIiVcOMXcOMXcOMXtzJcYIcOYIcOYIiVcOMXcOMXcOMXiVcOMXcOMXcOMXiVJcMXcOYIJcMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLaZvZyTvZyTvZhzyTvZyTvZyThzhztEhztEvZtEhziVtEhzyThzyTvZvZyTvZyTvZyTvZhztEvZyTvZtEvZjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLSzMXQJMXQJMXiVQJYIQJMXQJMXtzzaMXQJMXQJMXiVQJMXzaYIzaYIiVQJMXQJMXQJMXtzQJMXQJMXzaMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLSzMXQJMXzaYItzzaMXzaMXQJYIiVzaMXzaMXQJMXiVQJMXQJYIQJMXtzzaMXQJMXQJMXtzQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLSzMXQJMXzaMXiVzaYIQJMXQJYItzQJMXQJYIQJMXiVQJYIQJMXQJMXiVQJYIzaMXQJMXtzQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLSzMXQJYIQJMXiVQJYIQJMXzaMXtzzaYIzaMXzaYItzQJMXzaMXQJMXiVQJMXQJYIQJMXtzQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLSUMXJcMXcOMXiVcOYIJcMXJcYIiVcOMXcOYIJcYIiVJcMXcOMXcOYItzcOMXcOMXJcYIiVcOMXcOYIcOMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLaZvZtEvZyTvZiVyTvZyThztEhzhztEvZyTvZyThzvZyTvZyThzyTvZvZtEhzyTiVyThzvZyTvZyThzyTvZjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLSzMXzaMXQJMXiVQJMXQJYIQJYIiVzaYIQJMXzaMXiVQJMXQJMXQJMXiVQJYIQJMXzaYIiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcFcqoNLNLSzYIQJMXQJMXiVQJMXQJMXzaMXiVQJYIQJMXzaYIiVQJMXQJMXQJYIiVQJYIQJMXzaYIiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoNLNLrRYIQJMXQJMXiVQJMXQJYIzaMXiVQJMXzaMXQJMXiVQJMXQJMXQJMXiVzaMXQJYIQJYIiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoNLNLNLrRMXQJMXQJMXiVzaMXQJYIQJMXiVQJMXQJYIzaMXiVzaMXzaMXQJYItzQJYIQJYIQJYIiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLehMXcOMXcOMXiVJcMXcOYIJcMXiVcOMXcOMXJcYIiVcOMXcOYIJcMXiVcOMXJcMXcOYIiVcOMXcOYIcOMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLrWvZyTvZyTvZvZtEvZyTvZKxvZvZyTvZyTvZyThzvZyThzyThzyTvZvZtEhzyThztEvZvZyTvZyThzyTvZcnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLrRMXQJMXQJMXtzzaMXQJMXzaYIiVzaMXzaMXQJYItzzaMXzaMXzaMXiVQJMXzaYIQJMXiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLrRMXQJMXQJMXtzQJMXQJMXzaMXiVQJMXQJMXzaMXiVzaMXQJMXQJMXiVQJYIQJYIQJMXiVQJMXQJYIQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLrRMXQJMXQJYItzQJMXQJMXzaMXiVQJMXQJMXQJMXiVQJYIQJMXQJMXiVzaMXQJMXQJMXiVQJMXzaMXQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLrRMXQJMXQJYItzQJMXQJMXzaMXiVQJYIQJYIQJYIiVQJYIQJMXQJYItzQJMXQJYIQJMXiVQJMXzaMXQJMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLehMXcOYIJcMXtzcOMXcOMXJcYItzJcYIcOMXJcYIiVcOMXJcYIJcMXiVcOMXcOMXcOMXiVcOMXJcMXcOMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLQjtztztztztztziViViVtztziVtztziVtztziViViViViViVtziViViViViVtziViViViViVtziViViViVooNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLQjtztziViViViVtztztziViViVtziViViViViViViViVtziViVtziViViViViViViViViVtztziVtziViVooNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLnfMXKxMXknMXiVKxYIknMXKxYIiVknMXknMXknYIiVknMXknMXKxYIiVknYIknMXknMXtzKxMXknYIknMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLfGMXlTYIlTMXiVrxMXlTMXlTYIiVlTMXlTMXlTMXiVlTMXlTMXlTYItzlTMXlTMXlTYItzlTMXrxYIlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLfGMXlTMXrxMXiVrxMXlTMXlTMXtzlTMXlTYIlTMXiVlTMXlTMXrxYIiVlTMXlTMXlTYIiVlTMXrxYIlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcFcqoNLNLNLNLfGMXlTMXrxYItzrxMXlTMXrxMXtzrxMXlTMXlTMXiVlTYIlTYIlTYIiVlTMXlTMXrxMXiVlTMXrxYIlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoqoNLNLNLNLfGMXlTMXlTMXiVrxMXlTMXrxYIiVlTYIrxMXrxMXtzlTMXlTMXrxMXiVlTMXlTYIrxMXiVlTYIlTYIlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLNLNLFbvZsXvZsXvZvZoUhzsXvZsXhzhzoUhzoUvZsXvZiVoUvZoUvZsXvZvZsXvZsXhzoUvZiVsXhzsXhzsXvZGKNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLnfMXknMXknMXiVknYIKxYIknYIiVknYIknMXknYIiVknMXknMXknMXiVknMXknMXKxYIiVKxYIKxYIknMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLNLNLfGMXlTMXlTMXiVlTMXlTMXlTYItzlTYIlTMXlTMXiVlTMXlTMXlTMXiVlTMXlTMXlTMXtzrxYIrxMXlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLNLNLfGMXlTMXlTMXiVlTMXlTMXlTYIiVlTYIrxMXrxMXiVlTMXlTYIrxYItzrxYIrxYIrxYIiVrxYIlTMXlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLNLNLNLfGMXlTMXlTMXiVlTMXlTMXlTYIiVlTYIlTMXlTYItzlTYIrxYIrxMXtzlTMXlTMXlTYItzlTMXlTMXlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoNLNLNLNLNLNLNLfGMXlTMXlTMXiVlTMXlTMXlTMXtzrxMXlTMXlTMXiVlTMXlTYIrxMXiVlTYIlTYIlTYIiVlTMXlTMXlTMXjnNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoNLNLNLNLNLNLpofWvOfWvOfWfWvOfWvOfWvOfWFxvOfWvOfWvOfWfWvOfWvOfWvOLTLTJFLTJFLTJFLTLTJFLTvOfWvOfWPANLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcFcFcFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoFcFcFcFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoNLqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoNLqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+NLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLqoqoqoFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcqoqoqoqoNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLNLvo
+"}

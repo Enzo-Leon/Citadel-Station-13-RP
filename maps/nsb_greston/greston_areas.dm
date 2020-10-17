@@ -1,0 +1,121 @@
+//Debug areas
+/area/greston/surfacebase
+	name = "greston Debug Surface"
+
+/area/greston/transit
+	name = "greston Debug Transit"
+	requires_power = 0
+
+/area/greston/space
+	name = "greston Debug Space"
+	requires_power = 0
+
+/area/maintenance/bar/catwalk
+	name = "Bar Maintenance Catwalk"
+	icon_state = "maint_bar"
+
+// greston Areas itself
+/area/greston/surfacebase/greston
+	icon = 'icons/turf/areas_vr.dmi'
+	icon_state = "greston1"
+/area/greston/transit/greston
+	icon = 'icons/turf/areas_vr.dmi'
+	icon_state = "greston2"
+/area/greston/space/greston
+	icon = 'icons/turf/areas_vr.dmi'
+	icon_state = "greston3"
+
+//////	TURBOLIFT AREAS	 //////
+// Elevator areas.
+/area/turbolift
+	delay_time = 2 SECONDS
+	forced_ambience = list('sound/music/elevator.ogg')
+	dynamic_lighting = FALSE //Temporary fix for elevator lighting
+
+	requires_power = FALSE
+
+// North Turbolift
+/area/turbolift/t_surface/levelbn
+	name = "surface (basement)"
+	lift_floor_label = "Basement"
+	lift_floor_name = "Basement"
+	lift_announce_str = "Arriving at Basement."
+	delay_time = 5 SECONDS
+
+/area/turbolift/t_surface/level1n
+	name = "surface (level 1)"
+	lift_floor_label = "Surface 1"
+	lift_floor_name = "Tram, Dorms, Mining, Surf. EVA"
+	lift_announce_str = "Arriving at Base Level 1."
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/t_surface/level2n
+	name = "surface (level 2)"
+	lift_floor_label = "Surface 2"
+	lift_floor_name = "Atmos, Maintenance"
+	lift_announce_str = "Arriving at Base Level 2."
+
+/area/turbolift/t_surface/level3n
+	name = "surface (level 3)"
+	lift_floor_label = "Surface 3"
+	lift_floor_name = "Science, Bar, Pool"
+	lift_announce_str = "Arriving at Base Level 3."
+
+// South Turbolift
+/area/turbolift/t_surface/levelbs
+	name = "surface (basement)"
+	lift_floor_label = "Basement"
+	lift_floor_name = "Basement"
+	lift_announce_str = "Arriving at Basement."
+	delay_time = 5 SECONDS
+
+/area/turbolift/t_surface/level1s
+	name = "surface (level 1)"
+	lift_floor_label = "Surface 1"
+	lift_floor_name = "Tram, Dorms, Mining, Surf. EVA"
+	lift_announce_str = "Arriving at Base Level 1."
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/t_surface/level2s
+	name = "surface (level 2)"
+	lift_floor_label = "Surface 2"
+	lift_floor_name = "Atmos, Maintenance"
+	lift_announce_str = "Arriving at Base Level 2."
+
+/area/turbolift/t_surface/level3s
+	name = "surface (level 3)"
+	lift_floor_label = "Surface 3"
+	lift_floor_name = "Science, Bar, Pool"
+	lift_announce_str = "Arriving at Base Level 3."
+
+////////////////////////////////////////////////////
+
+/area/vacant/vacant_restaurant_upper
+	name = "\improper Vacant Restaurant"
+	icon_state = "vacant_site"
+	flags = null
+
+/area/vacant/vacant_restaurant_lower
+	name = "\improper Vacant Restaurant"
+	icon_state = "vacant_site"
+	flags = null
+
+/area/engineering/engineering_airlock
+	name = "\improper Engineering Airlock"
+	icon_state = "engine_eva"
+
+/area/engineering/hallway
+	name = "\improper Engineering Hallway"
+	icon_state = "engineering"
+
+/area/engineering/shaft
+	name = "\improper Engineering Electrical Shaft"
+	icon_state = "substation"
+
+/area/vacant/vacant_office
+	name = "\improper Vacant Office"
+	icon_state = "vacant_site"
+
+/area/medical/psych_ward
+	name = "\improper Psych Ward"
+	icon_state = "psych_ward"

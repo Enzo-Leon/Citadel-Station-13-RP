@@ -16,9 +16,13 @@ Format:
 endmap
 
 map tether
-	disabled
+	tether
 endmap
 
 map triumph
-	default
+	disabled
+endmap
+
+map greston
+	disabled
 endmap

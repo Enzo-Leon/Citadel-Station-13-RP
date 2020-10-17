@@ -3,95 +3,108 @@
 // Surface Base Z Levels
 //
 
-/area/tether/surfacebase
+/area/greston/surfacebase
 	icon = 'icons/turf/areas_vr.dmi'
 
+/area/greston/surfacebase/surface_one_hall
+	name = "Surface 1"
+	icon_state = "yellow"
 
-/area/tether/surfacebase/outside
+/area/greston/surfacebase/surface_two_hall
+	name = "Surface 2"
+	icon_state = "yellow"
+
+/area/greston/surfacebase/surface_three_hall
+	name = "Surface 3"
+	icon_state = "yellow"
+
+
+
+/area/greston/surfacebase/outside
 	name = "Outside - Surface"
 	sound_env = MOUNTAINS
-/area/tether/surfacebase/outside/outside1
+/area/greston/surfacebase/outside/outside1
 	icon_state = "outside1"
-/area/tether/surfacebase/outside/outside2
+/area/greston/surfacebase/outside/outside2
 	icon_state = "outside2"
-/area/tether/surfacebase/outside/outside3
+/area/greston/surfacebase/outside/outside3
 	icon_state = "outside3"
 
-/area/tether/surfacebase/outside/empty
+/area/greston/surfacebase/outside/empty
 	name = "Outside - Empty Area"
 
-/area/tether/surfacebase/outside/wilderness
+/area/greston/surfacebase/outside/wilderness
 	name = "Outside - Wilderness"
 	icon_state = "invi"
 	forced_ambience = list('sound/music/Sacred_Grove.ogg')
 
-/area/tether/surfacebase/temple
+/area/greston/surfacebase/temple
 	name = "Outside - Wilderness" // ToDo: Make a way to hide spoiler areas off the list of areas ghosts can jump to.
 	icon_state = "red"
 
-/area/tether/surfacebase/crash
+/area/greston/surfacebase/crash
 	name = "Outside - Wilderness" // ToDo: Make a way to hide spoiler areas off the list of areas ghosts can jump to.
 	icon_state = "yellow"
 
-/area/tether/surfacebase/tram
+/area/greston/surfacebase/tram
 	name = "\improper Tram Station"
 	icon_state = "dk_yellow"
 
-/area/tether/surfacebase/atrium_one
+/area/greston/surfacebase/atrium_one
 	name = "\improper Atrium First Floor"
 	icon_state = "dk_yellow"
-/area/tether/surfacebase/atrium_two
+/area/greston/surfacebase/atrium_two
 	name = "\improper Atrium Second Floor"
 	icon_state = "dk_yellow"
-/area/tether/surfacebase/atrium_three
+/area/greston/surfacebase/atrium_three
 	name = "\improper Atrium Third Floor"
 	icon_state = "dk_yellow"
 
 
-/area/tether/surfacebase/north_stairs_one
+/area/greston/surfacebase/north_stairs_one
 	name = "\improper North Stairwell First Floor"
 	icon_state = "dk_yellow"
-/area/tether/surfacebase/north_staires_two
+/area/greston/surfacebase/north_staires_two
 	name = "\improper North Stairwell Second Floor"
 	icon_state = "dk_yellow"
-/area/tether/surfacebase/north_stairs_three
+/area/greston/surfacebase/north_stairs_three
 	name = "\improper North Stairwell Third Floor"
 	icon_state = "dk_yellow"
 
-/area/tether/surfacebase/public_garden_one
+/area/greston/surfacebase/public_garden_one
 	name = "\improper Public Garden First Floor"
 	icon_state = "green"
-/area/tether/surfacebase/public_garden_two
+/area/greston/surfacebase/public_garden_two
 	name = "\improper Public Garden Second Floor"
 	icon_state = "green"
-/area/tether/surfacebase/public_garden_three
+/area/greston/surfacebase/public_garden_three
 	name = "\improper Public Garden Third Floor"
 	icon_state = "green"
-/area/tether/surfacebase/public_garden
+/area/greston/surfacebase/public_garden
 	name = "\improper Public Garden"
 	icon_state = "purple"
-/area/tether/surfacebase/bar_backroom
+/area/greston/surfacebase/bar_backroom
 	name = "\improper Bar Backroom"
 	icon_state = "red"
 	sound_env = SMALL_SOFTFLOOR
 
-/area/tether/surfacebase/fishing_garden
+/area/greston/surfacebase/fishing_garden
 	name = "\improper Fish Pond"
 	icon_state = "blue"
 
 
-/area/tether/surfacebase/sauna
+/area/greston/surfacebase/sauna
 	name = "\improper Public Sauna"
 	icon_state = "green"
 
 
-/area/tether/surfacebase/lounge
+/area/greston/surfacebase/lounge
 	name = "\improper Station Lounge"
 	icon_state = "purple"
 
-// /area/tether/surfacebase/east_stairs_one //This is just part of a lower hallway
+// /area/greston/surfacebase/east_stairs_one //This is just part of a lower hallway
 
-/area/tether/surfacebase/east_stairs_two
+/area/greston/surfacebase/east_stairs_two
 	name = "\improper East Stairwell Second Floor"
 	icon_state = "dk_yellow"
 /area/vacant/vacant_site/east
@@ -103,41 +116,41 @@
 /area/vacant/vacant_bar_upper
 	name = "\improper Upper Vacant Bar"
 
-// /area/tether/surfacebase/east_stairs_three //This is just part of an upper hallway
+// /area/greston/surfacebase/east_stairs_three //This is just part of an upper hallway
 
-/area/tether/surfacebase/emergency_storage
+/area/greston/surfacebase/emergency_storage
 	icon_state = "emergencystorage"
-/area/tether/surfacebase/emergency_storage/panic_shelter
+/area/greston/surfacebase/emergency_storage/panic_shelter
 	name = "\improper Panic Shelter Emergency Storage"
-/area/tether/surfacebase/emergency_storage/rnd
+/area/greston/surfacebase/emergency_storage/rnd
 	name = "\improper RnD Emergency Storage"
-/area/tether/surfacebase/emergency_storage/atmos
+/area/greston/surfacebase/emergency_storage/atmos
 	name = "\improper Atmospherics Emergency Storage"
-/area/tether/surfacebase/emergency_storage/atrium
+/area/greston/surfacebase/emergency_storage/atrium
 	name = "\improper Atrium Emergency Storage"
 
 // Main mining area
-/area/tether/surfacebase/mining_main
+/area/greston/surfacebase/mining_main
 	icon_state = "outpost_mine_main"
-/area/tether/surfacebase/mining_main/airlock
+/area/greston/surfacebase/mining_main/airlock
 	name = "\improper Mining Airlock"
-/area/tether/surfacebase/mining_main/storage
+/area/greston/surfacebase/mining_main/storage
 	name = "\improper Mining Gear Storage"
-/area/tether/surfacebase/mining_main/uxstorage
+/area/greston/surfacebase/mining_main/uxstorage
 	name = "\improper Mining Secondary Storage"
-/area/tether/surfacebase/mining_main/ore
+/area/greston/surfacebase/mining_main/ore
 	name = "\improper Mining Ore Storage"
-/area/tether/surfacebase/mining_main/eva
+/area/greston/surfacebase/mining_main/eva
 	name = "\improper Mining EVA"
-/area/tether/surfacebase/mining_main/break_room
+/area/greston/surfacebase/mining_main/break_room
 	name = "\improper Mining Crew Area"
-/area/tether/surfacebase/mining_main/refinery
+/area/greston/surfacebase/mining_main/refinery
 	name = "\improper Mining Refinery"
-/area/tether/surfacebase/mining_main/external
+/area/greston/surfacebase/mining_main/external
 	name = "\improper Mining Refinery"
-/area/tether/surfacebase/mining_main/bathroom
+/area/greston/surfacebase/mining_main/bathroom
 	name = "\improper Mining Bathroom"
-/area/tether/surfacebase/mining_main/lobby
+/area/greston/surfacebase/mining_main/lobby
 	name = "\improper Mining Lobby"
 /area/quartermaster/belterdock
 	name = "\improper Cargo Belter Access"
@@ -146,19 +159,19 @@
 // Mining Underdark
 /area/mine/unexplored/underdark
 	name = "\improper Mining Underdark"
-	base_turf = /turf/simulated/mineral/floor/virgo3b
+	base_turf = /turf/simulated/mineral/floor/lumos4
 /area/mine/explored/underdark
 	name = "\improper Mining Underdark"
-	base_turf = /turf/simulated/mineral/floor/virgo3b
+	base_turf = /turf/simulated/mineral/floor/lumos4
 
 // Mining outpost areas
 /area/outpost/mining_main/passage
 	name = "\improper Mining Outpost Passage"
 
 // Solars map areas
-/area/tether/outpost/solars_outside
+/area/greston/outpost/solars_outside
 	name = "\improper Solar Farm"
-/area/tether/outpost/solars_shed
+/area/greston/outpost/solars_shed
 	name = "\improper Solar Farm Shed"
 
 
@@ -172,33 +185,33 @@
 	name = "\improper Surface Atmos Substation"
 /area/maintenance/substation/civ_west
 	name = "\improper Civilian West Substation"
-/area/maintenance/tether_midpoint
-	name = "\improper Tether Midpoint Maint"
+/area/maintenance/greston_midpoint
+	name = "\improper greston Midpoint Maint"
 
 
-/area/tether/surfacebase/medical
+/area/greston/surfacebase/medical
 	icon_state = "medical"
-/area/tether/surfacebase/medical/lobby
+/area/greston/surfacebase/medical/lobby
 	name = "\improper Surface Medical Lobby"
-/area/tether/surfacebase/medical/triage
+/area/greston/surfacebase/medical/triage
 	name = "\improper Surface Triage"
-/area/tether/surfacebase/medical/first_aid_west
+/area/greston/surfacebase/medical/first_aid_west
 	name = "\improper First Aid West"
 
 
-/area/tether/surfacebase/security
+/area/greston/surfacebase/security
 	icon_state = "security"
-/area/tether/surfacebase/security/breakroom
+/area/greston/surfacebase/security/breakroom
 	name = "\improper Surface Security Break Room"
-/area/tether/surfacebase/security/lobby
+/area/greston/surfacebase/security/lobby
 	name = "\improper Surface Security Lobby"
-/area/tether/surfacebase/security/common
+/area/greston/surfacebase/security/common
 	name = "\improper Surface Security Room"
-/area/tether/surfacebase/security/armory
+/area/greston/surfacebase/security/armory
 	name = "\improper Surface Armory"
-/area/tether/surfacebase/security/checkpoint
+/area/greston/surfacebase/security/checkpoint
 	name = "\improper Surface Checkpoint Office"
-/area/tether/surfacebase/security/hallway
+/area/greston/surfacebase/security/hallway
 	name = "\improper Surface Checkpoint Hallway"
 
 
@@ -219,7 +232,7 @@
 /area/engineering/lower/breakroom
 	name = "\improper Enginering Surface Break Room"
 /area/engineering/lower/corridor
-	name = "\improper Tether Lower Service Corridor"
+	name = "\improper greston Lower Service Corridor"
 /area/engineering/lower/atmos_lockers
 	name = "\improper Engineering Atmos Locker Room"
 /area/engineering/lower/atmos_eva
@@ -405,11 +418,11 @@
 /area/storage/surface_eva/external
 	name = "\improper Surface EVA Access"
 
-/area/tether/surfacebase/shuttle_pad
-	name = "\improper Tether Shuttle Pad"
-/area/tether/surfacebase/reading_room
+/area/greston/surfacebase/shuttle_pad
+	name = "\improper greston Shuttle Pad"
+/area/greston/surfacebase/reading_room
 	name = "\improper Reading Room"
-/area/tether/surfacebase/vacant_site
+/area/greston/surfacebase/vacant_site
 	name = "\improper Vacant Site"
 /area/crew_quarters/freezer
 	name = "\improper Kitchen Freezer"
@@ -423,19 +436,19 @@
 //
 // Note: Fore is NORTH
 
-/area/tether/station/stairs_one
+/area/greston/station/stairs_one
 	name = "\improper Station Stairwell First Floor"
 	icon_state = "dk_yellow"
-/area/tether/station/stairs_two
+/area/greston/station/stairs_two
 	name = "\improper Station Stairwell Second Floor"
 	icon_state = "dk_yellow"
-/area/tether/station/stairs_three
+/area/greston/station/stairs_three
 	name = "\improper Station Stairwell Third Floor"
 	icon_state = "dk_yellow"
-/area/tether/station/dock_one
+/area/greston/station/dock_one
 	name = "\improper Dock One"
 	icon_state = "dk_yellow"
-/area/tether/station/dock_two
+/area/greston/station/dock_two
 	name = "\improper Dock Two"
 	icon_state = "dk_yellow"
 
@@ -601,46 +614,46 @@
 	name = "\improper AI Maintenance"
 	sound_env = SEWER_PIPE
 
-/area/tether/station/public_meeting_room
+/area/greston/station/public_meeting_room
 	name = "Public Meeting Room"
 	icon_state = "blue"
 	sound_env = SMALL_SOFTFLOOR
 
-/area/shuttle/tether/crash1
+/area/shuttle/greston/crash1
 	name = "\improper Crash Site 1"
 	icon_state = "shuttle2"
-	base_turf = /turf/simulated/floor/outdoors/dirt/virgo3b
-/area/shuttle/tether/crash2
+	base_turf = /turf/simulated/floor/outdoors/dirt/lumos4
+/area/shuttle/greston/crash2
 	name = "\improper Crash Site 2"
 	icon_state = "shuttle2"
-	base_turf = /turf/simulated/floor/outdoors/dirt/virgo3b
+	base_turf = /turf/simulated/floor/outdoors/dirt/lumos4
 
 // Exploration Shuttle stuff //
-/area/tether/station/excursion_dock
+/area/greston/station/excursion_dock
 	name = "\improper Excursion Shuttle Dock"
 	icon_state = "hangar"
 
-/area/tether/station/explorer_prep
+/area/greston/station/explorer_prep
 	name = "\improper Explorer Prep Room"
 	icon_state = "locker"
 
-/area/tether/station/explorer_entry
+/area/greston/station/explorer_entry
 	name = "\improper Exploration Foyer"
 	icon_state = "green"
 
-/area/tether/station/explorer_meeting
+/area/greston/station/explorer_meeting
 	name = "\improper Explorer Meeting Room"
 	icon_state = "northeast"
 
-/area/tether/station/explorer_showers
+/area/greston/station/explorer_showers
 	name = "\improper Explorer Showers"
 	icon_state = "restrooms"
 
-/area/tether/station/explorer_medical
+/area/greston/station/explorer_medical
 	name = "\improper Exploration Med Station"
 	icon_state = "medbay"
 
-/area/tether/station/pathfinder_office
+/area/greston/station/pathfinder_office
 	name = "\improper Pathfinder's Office"
 
 // Excursion Shuttle
@@ -901,17 +914,17 @@
 	name = "Special Operations Shuttle - Centcom"
 	icon_state = "shuttlered"
 	base_turf = /turf/unsimulated/floor/shuttle_ceiling
-/area/shuttle/specialops/tether
-	name = "Special Operations Shuttle - Tether"
+/area/shuttle/specialops/greston
+	name = "Special Operations Shuttle - greston"
 	icon_state = "shuttlered"
 /area/shuttle/specialops/transit
 	name = "transit"
 	icon_state = "shuttlered"
 	base_turf = /turf/space/transit/east
 
-// Tether Map has this shuttle
-/area/shuttle/tether
-	name = "Tether Shuttle"
+// greston Map has this shuttle
+/area/shuttle/greston
+	name = "greston Shuttle"
 	icon_state = "shuttle2"
 
 // Skipjack
@@ -927,10 +940,10 @@
 	icon_state = "shuttlered"
 	base_turf = /turf/space/transit/north
 /area/skipjack_station/orbit
-	name = "near the Tether"
+	name = "near the greston"
 	icon_state = "northwest"
 /area/skipjack_station/arrivals_dock
-	name = "\improper docked with Tether"
+	name = "\improper docked with greston"
 	icon_state = "shuttle"
 // Ninja areas
 /area/ninja_dojo
@@ -947,16 +960,22 @@
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/plating
 /area/ninja_dojo/orbit
-	name = "near the Tether"
+	name = "near the greston"
 	icon_state = "south"
 /area/ninja_dojo/transit
 	name = "transit"
 	icon_state = "shuttlered"
 	base_turf = /turf/space/transit/north
 /area/ninja_dojo/arrivals_dock
-	name = "\improper docked with Tether"
+	name = "\improper docked with greston"
 	icon_state = "shuttle"
 	dynamic_lighting = 0
 // Exclude some more areas from the atmos leak event so people don't get trapped when spawning.
 /datum/event/atmos_leak/setup()
+	excluded |= /area/greston/surfacebase/tram
+	excluded |= /area/greston/surfacebase/surface_one_hall
+	excluded |= /area/greston/surfacebase/surface_two_hall
+	excluded |= /area/greston/surfacebase/surface_three_hall
+	excluded |= /area/teleporter/departing
+	excluded |= /area/hallway/station/upper
 	..()

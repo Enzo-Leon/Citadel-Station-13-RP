@@ -75,7 +75,7 @@
 #if AWAY_MISSION_TEST
 #include "beach/beach.dmm"
 #include "beach/cave.dmm"
-#include "alienship/alienship.dmm"
+//#include "alienship/alienship.dmm"
 #include "aerostat/aerostat.dmm"
 #include "aerostat/surface.dmm"
 // #include "space/debrisfield.dmm"
@@ -118,7 +118,7 @@
 /obj/effect/step_trigger/zlevel_fall/beach
 	var/static/target_z
 
-
+/*
 #include "alienship/_alienship.dm"
 /datum/map_template/tether_lateload/away_alienship
 	name = "Alien Ship - Z1 Ship"
@@ -131,7 +131,7 @@
 /datum/map_z_level/tether_lateload/away_alienship
 	name = "Away Mission - Alien Ship"
 	z = Z_LEVEL_ALIENSHIP
-
+*/
 
 #include "aerostat/_aerostat.dm"
 /datum/map_template/tether_lateload/away_aerostat
