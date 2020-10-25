@@ -36,52 +36,52 @@
 
 // North Turbolift
 /area/turbolift/t_surface/levelbn
-	name = "surface (basement)"
+	name = "Basement"
 	lift_floor_label = "Basement"
 	lift_floor_name = "Basement"
 	lift_announce_str = "Arriving at Basement."
 
 /area/turbolift/t_surface/level1n
-	name = "surface (level 1)"
+	name = "Floor 1"
 	lift_floor_label = "Surface 1"
 	lift_floor_name = "Tram, Dorms, Mining, Surf. EVA"
 	lift_announce_str = "Arriving at Base Level 1."
 	base_turf = /turf/simulated/floor/plating
 
 /area/turbolift/t_surface/level2n
-	name = "surface (level 2)"
+	name = "Floor 2"
 	lift_floor_label = "Surface 2"
 	lift_floor_name = "Atmos, Maintenance"
 	lift_announce_str = "Arriving at Base Level 2."
 
 /area/turbolift/t_surface/level3n
-	name = "surface (level 3)"
+	name = "Floor 3"
 	lift_floor_label = "Surface 3"
 	lift_floor_name = "Science, Bar, Pool"
 	lift_announce_str = "Arriving at Base Level 3."
 
 // South Turbolift
 /area/turbolift/t_surface/levelbs
-	name = "surface (basement)"
+	name = "Basement"
 	lift_floor_label = "Basement"
 	lift_floor_name = "Basement"
 	lift_announce_str = "Arriving at Basement."
 
 /area/turbolift/t_surface/level1s
-	name = "surface (level 1)"
+	name = "Floor 1"
 	lift_floor_label = "Surface 1"
 	lift_floor_name = "Tram, Dorms, Mining, Surf. EVA"
 	lift_announce_str = "Arriving at Base Level 1."
 	base_turf = /turf/simulated/floor/plating
 
 /area/turbolift/t_surface/level2s
-	name = "surface (level 2)"
+	name = "Floor 2"
 	lift_floor_label = "Surface 2"
 	lift_floor_name = "Atmos, Maintenance"
 	lift_announce_str = "Arriving at Base Level 2."
 
 /area/turbolift/t_surface/level3s
-	name = "surface (level 3)"
+	name = "Floor 3"
 	lift_floor_label = "Surface 3"
 	lift_floor_name = "Science, Bar, Pool"
 	lift_announce_str = "Arriving at Base Level 3."

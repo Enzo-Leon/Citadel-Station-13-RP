@@ -62,13 +62,13 @@
 
 /obj/effect/step_trigger/teleporter/to_reactor/New()
 	..()
-	teleport_x = 138
+	teleport_x = 139
 	teleport_y = src.y
 	teleport_z = Z_LEVEL_REACTOR
 
 /obj/effect/step_trigger/teleporter/from_reactor/New()
 	..()
-	teleport_x = 3
+	teleport_x = 2
 	teleport_y = src.y
 	teleport_z = Z_LEVEL_SURFACE_LOW
 
