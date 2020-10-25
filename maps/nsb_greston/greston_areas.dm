@@ -40,7 +40,6 @@
 	lift_floor_label = "Basement"
 	lift_floor_name = "Basement"
 	lift_announce_str = "Arriving at Basement."
-	delay_time = 5 SECONDS
 
 /area/turbolift/t_surface/level1n
 	name = "surface (level 1)"
@@ -67,7 +66,6 @@
 	lift_floor_label = "Basement"
 	lift_floor_name = "Basement"
 	lift_announce_str = "Arriving at Basement."
-	delay_time = 5 SECONDS
 
 /area/turbolift/t_surface/level1s
 	name = "surface (level 1)"

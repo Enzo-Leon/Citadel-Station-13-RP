@@ -10,7 +10,7 @@
     height = 4
 
 /obj/turbolift_map_holder/greston_north
-	name = "Greston Climber"
+	name = "Greston North Climber"
 	depth = 4
 	lift_size_x = 3
 	lift_size_y = 3
@@ -25,7 +25,7 @@
 		)
 
 /obj/turbolift_map_holder/greston_south
-	name = "Greston Climber"
+	name = "Greston South Climber"
 	depth = 4
 	lift_size_x = 3
 	lift_size_y = 3
