@@ -15,9 +15,9 @@
 		#include "../../_maps/map_files/greston/greston-02-surface1.dmm"
 		#include "../../_maps/map_files/greston/greston-03-surface2.dmm"
 		#include "../../_maps/map_files/greston/greston-04-surface3.dmm"
-		#include "../../_maps/map_files/greston/greston-05-colony.dmm"
-		#include "../../_maps/map_files/greston/greston-06-mining.dmm"
-		#include "../../_maps/map_files/greston/greston-07-reactor.dmm"
+		#include "../../_maps/map_files/greston/greston-05-mining.dmm"
+		#include "../../_maps/map_files/greston/greston-06-reactor.dmm"
+		#include "../../_maps/map_files/greston/greston-07-colony.dmm"
 	#endif
 
 	#include "submaps/_greston_submaps.dm"

@@ -8,11 +8,11 @@
 #define Z_LEVEL_SURFACE_LOW					2
 #define Z_LEVEL_SURFACE_MID					3
 #define Z_LEVEL_SURFACE_HIGH				4
-#define Z_LEVEL_CENTCOM						5
-#define Z_LEVEL_MISC						6
-#define Z_LEVEL_SHIPS						7
-#define Z_LEVEL_MINES						8
-#define Z_LEVEL_REACTOR						9
+#define Z_LEVEL_MINES						5
+#define Z_LEVEL_REACTOR						6
+#define Z_LEVEL_CENTCOM						7
+#define Z_LEVEL_MISC						8
+#define Z_LEVEL_SHIPS						9
 //Camera networks
 #define NETWORK_GRESTON "Greston"
 #define NETWORK_TCOMMS "Telecommunications" //Using different from Polaris one for better name
@@ -151,6 +151,7 @@
 		Z_LEVEL_SURFACE_LOW,
 		Z_LEVEL_SURFACE_MID,
 		Z_LEVEL_SURFACE_HIGH,
+		Z_LEVEL_MINES,
 		Z_LEVEL_REACTOR
 	)
 

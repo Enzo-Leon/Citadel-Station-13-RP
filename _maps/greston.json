@@ -6,9 +6,9 @@
  		 "greston-02-surface1.dmm",
  		 "greston-03-surface2.dmm",
  		 "greston-04-surface3.dmm",
- 		 "greston-05-colony.dmm",
- 		 "greston-06-mining.dmm",
- 		 "greston-07-reactor.dmm"
+ 		 "greston-05-mining.dmm",
+ 		 "greston-06-reactor.dmm",
+		 "greston-07-colony.dmm"
    ],
    "traits":[
       {
@@ -41,12 +41,6 @@
          "Baseturf":"/turf/simulated/sky/lumos4"
       },
       {
-        "Station":false,
-        "Linkage":null,
-        "Gravity":true,
-        "Baseturf":"/turf/simulated/floor/outdoors/grass/sif/lumos4"
-      },
-      {
         "Mining":true,
         "Linkage":null,
         "Gravity":true,
@@ -54,6 +48,12 @@
       },
       {
         "Station":true,
+        "Linkage":null,
+        "Gravity":true,
+        "Baseturf":"/turf/simulated/floor/outdoors/grass/sif/lumos4"
+      },
+      {
+        "Station":false,
         "Linkage":null,
         "Gravity":true,
         "Baseturf":"/turf/simulated/floor/outdoors/grass/sif/lumos4"
