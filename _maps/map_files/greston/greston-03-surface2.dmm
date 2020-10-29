@@ -20,7 +20,7 @@
 "du" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{name = "Air to Distro"},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "dw" = (/obj/machinery/atmospherics/omni/atmos_filter{name = "CO2 Filter"; tag_east = 2; tag_north = 5; tag_south = 1; tag_west = null},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "dz" = (/obj/machinery/computer/general_air_control/large_tank_control{input_tag = "co2_in"; name = "Carbon Dioxide Supply Control"; output_tag = "co2_out"; sensors = list("co2_sensor" = "Tank")},/turf/simulated/floor/tiled,/area/engineering/atmos)
-"dK" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
+"dK" = (/obj/structure/railing{dir = 1},/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "eo" = (/obj/structure/railing{dir = 8},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "ep" = (/turf/simulated/wall,/area/crew_quarters/kitchen)
 "fb" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled,/area/chapel/main)
@@ -28,7 +28,7 @@
 "fr" = (/obj/structure/table/marble,/obj/machinery/chemical_dispenser/bar_alc/full,/turf/simulated/floor/tiled,/area/crew_quarters/bar)
 "fy" = (/obj/structure/railing,/obj/structure/railing{dir = 8},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/turf/simulated/open,/area/crew_quarters/bar)
 "gw" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor/tiled,/area/engineering/atmos)
-"gQ" = (/obj/structure/railing,/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
+"gQ" = (/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "hg" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "hD" = (/turf/simulated/floor/tiled,/area/crew_quarters/kitchen)
 "ig" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/computer/general_air_control/large_tank_control{input_tag = "tox_in"; name = "Phoron Supply Control"; output_tag = "tox_out"; sensors = list("tox_sensor" = "Tank")},/turf/simulated/floor/tiled,/area/engineering/atmos)
@@ -89,11 +89,10 @@
 "uM" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/computer/general_air_control/large_tank_control{input_tag = "o2_in"; name = "Oxygen Supply Control"; output_tag = "o2_out"; sensors = list("o2_sensor" = "Tank")},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "uN" = (/obj/structure/railing{dir = 8},/obj/structure/railing,/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "uR" = (/turf/simulated/floor/tiled,/area/engineering/atmos/hallway)
-"uU" = (/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 1},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
+"uU" = (/obj/structure/railing,/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "uZ" = (/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/reinforced/airmix,/area/engineering/atmos)
 "vb" = (/obj/machinery/atmospherics/unary/vent_pump{external_pressure_bound = 0; external_pressure_bound_default = 0; frequency = 1441; icon_state = "map_vent_in"; id_tag = "co2_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/engineering/atmos)
 "vO" = (/turf/unsimulated/mineral/lumos4,/area/greston/surfacebase/outside/outside2)
-"vV" = (/obj/structure/railing{dir = 4},/obj/structure/railing,/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "wg" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 10},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "wy" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 4},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "wz" = (/obj/machinery/atmospherics/pipe/manifold/visible/green,/turf/simulated/floor/tiled,/area/engineering/atmos)
@@ -165,7 +164,6 @@
 "IQ" = (/obj/machinery/portable_atmospherics/canister/empty/nitrogen,/turf/simulated/floor/reinforced/nitrogen,/area/engineering/atmos)
 "IW" = (/turf/simulated/floor/holofloor,/area/greston/surfacebase/outside/outside2)
 "IX" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/turf/simulated/floor/tiled,/area/engineering/atmos)
-"Jb" = (/obj/structure/railing,/obj/structure/railing{dir = 8},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "Jh" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced{dir = 4},/turf/simulated/open,/area/crew_quarters/bar)
 "Jl" = (/obj/effect/floor_decal/chapel,/turf/simulated/floor/tiled,/area/chapel/main)
 "JJ" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/crew_quarters/bar)
@@ -184,7 +182,6 @@
 "Mu" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "MG" = (/obj/machinery/atmospherics/omni/atmos_filter{name = "N2O Filter"; tag_east = 4; tag_north = 3; tag_south = 2; tag_west = 1},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "ML" = (/turf/simulated/wall,/area/greston/surfacebase/bar_backroom)
-"MW" = (/obj/structure/railing{dir = 1},/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 "MZ" = (/obj/machinery/atmospherics/unary/freezer{dir = 1},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "NC" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/black,/turf/simulated/floor/tiled,/area/engineering/atmos)
 "Ow" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled,/area/engineering/atmos)
@@ -231,7 +228,6 @@
 "ZI" = (/obj/machinery/atmospherics/omni/atmos_filter{name = "N2O Filter"; tag_east = 2; tag_north = 7; tag_south = null; tag_west = 1},/turf/simulated/floor/tiled,/area/engineering/atmos)
 "ZL" = (/obj/machinery/atmospherics/pipe/simple/visible/purple,/turf/simulated/floor/tiled,/area/engineering/atmos)
 "ZN" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/purple,/turf/simulated/floor/tiled,/area/engineering/atmos)
-"ZZ" = (/obj/structure/railing{dir = 4},/turf/simulated/open/lumos4,/area/greston/surfacebase/outside/outside2)
 
 (1,1,1) = {"
 vOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOywywywywywywywywywywvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvOvO
@@ -292,17 +288,17 @@ zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuFuVHFuFuFuFuFuFu
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHVHFuVHVHVHFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHVHFuFuVHFuFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuFPFPFPFPFPFPFPFPFPhDhDhDhDhDhDhDhDhDhDBtBtBtBtBtBtBtBtLxqhqhFuVHVHVHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHFuVHVHVHVHVHVHVHVHFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuVHVHVHVHVHPXoaoaoaoaoaoaoaoaoaoaoaoaoaoaMWVHVHVHVHVHuUoaoaoaoaoadKVHVHVHVHVHVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHzHzHzHzHZZVHVHVHVHVHeozHzHzHzHzHZZVHVHVHVHVHVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHzHzHzHzHZZVHVHVHVHVHeozHzHzHzHzHZZVHVHVHVHVHVHVHVHMLMLMLMLMLMLMLMLMLMLhDhDhDhDhDhDhDhDhDhDFuFuFuFuFuFuFuFuFuFuqhFuVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHsdIWIWIWIWIWIWFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHzHzHzHzHZZVHVHVHVHVHeozHzHzHzHzHZZVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHIWIWIWIWIWIWFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHzHzHzHzHZZVHVHVHVHVHeozHzHzHzHzHZZVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuVHVHIWIWIWIWIWIWFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHzHzHzHzHZZVHVHVHVHVHeozHzHzHzHzHZZVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuVHVHVHVHVHuNzyzyzyzyzyzyzyzyzyzyzyzyzyzygQVHVHVHVHVHJbzyzyzyzyzyvVVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWzWhDhDhDhDhDhDhDhDhDhDVHVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuVHVHVHVHVHPXoaoaoaoaoaoaoaoaoaoadKVHVHFuFuFuFuFuFuFuFuFuqhFuFuFuFuFuFuFuFuFuVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHgQVHVHFuqhqhqhqhqhqhqhqhqhqhFuVHVHVHVHVHVHFuVHVHVHFuFPFPFPFPFPFPFPFPFuhDhDhDhDhDhDhDhDhDhDMlBtBtBtBtBtBtBtMlqhqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHgQVHVHFuqhqhqhqhqhqhqhqhqhqhFuVHVHVHVHVHVHFuVHVHVHMLMLMLMLMLMLMLMLMLMLhDhDhDhDhDhDhDhDhDhDFuFuFuFuFuFuFuFuFuFuqhFuVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHsdIWIWIWIWIWIWFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHgQVHVHFuqhqhqhqhqhqhqhqhqhqhFuVHVHVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHIWIWIWIWIWIWFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHgQVHVHFuqhqhqhqhqhqhqhqhqhqhFuVHVHVHVHVHVHFuVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuVHVHIWIWIWIWIWIWFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHeozHzHzHzHzHzHzHzHzHzHgQVHVHFuqhqhqhqhqhqhqhqhqhqhFuVHVHVHVHVHVHFuVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuVHVHVHVHVHuNzyzyzyzyzyzyzyzyzyzyuUVHVHFuFuFuFuFuFuFuFuFuqhFuFuFuFuFuFuFuFuFuVHVHVHMLzWzWzWzWzWzWzWzWzWhDhDhDhDhDhDhDhDhDhDVHVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHMLzWzWzWzWzWzWzWzWMLhDhDhDhDhDhDhDhDhDhDFuVHVHVHVHVHVHVHVHFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHFuVHUBIWIWIWIWIWIWFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHMLMLMLMLMLzWMLMLMLMLAaqrAaAaXZXZwNAaqrAaFuFuFuFuFuVHFuFuFuFuqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHIWIWIWIWIWIWFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHAaKerJqrqrqrqrqrqrAaYBqrfrtmqrqrsjclqrFnAaqrqrqrqrqrqrqrUYAaqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuVHVHIWIWIWIWIWIWFuqhqhFurkyw
-zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHFuFuFuqhFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrVHVHVHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
+zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHFuFuFuqhFuFuFuFuFuqhFuFuFuFuFuFuFuFuFuVHVHVHqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrqrVHVHVHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHFuqhqhFuqhqhqhqhqhqhqhqhqhqhqhqhqhFuVHVHVHqrqrqrqrqrqrqrqrqrAaKeqrqrqrqrqrqrqrqrUYAaqrqrqrqrqrqrqrqrqrqrqrVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHFuFuFuFuFuFuFuFuFuFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHFuqhqhFuqhqhqhqhqhqhqhqhqhqhqhqhqhFuVHVHVHAaqrqrYuQFJhqpqpqpEYXZGbXZXZqrqrXZXZGbXZEYqpqpqpdkSvSvSvFuFuFuFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHVHVHVHVHFuVHxyIWIWIWIWIWIWFuqhqhFurkyw
 zHzHzHzHzHzHzHzHzHzHzHzHFuVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHVHFuVHVHVHFuqhqhFuqhqhqhqhqhqhqhqhqhqhqhqhqhFuVHVHVHAaqrqrPabLEcqpqpqpqprdqprdXZqrqrXZrdqprdqpqpqpqpbLaPaPaPFuqhqhFuVHVHVHFuVHVHVHVHVHVHVHFuVHVHVHVHVHVHVHVHFuVHVHVHVHVHVHIWIWIWIWIWIWFuqhqhFurkyw
