@@ -135,6 +135,13 @@
 	required_reagents = list("oxygen" = 1, "carbon" = 1, "sugar" = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/inaprovaline/topical
+	name = "Inaprovalaze"
+	id = "inaprovalaze"
+	result = "inaprovalaze"
+	required_reagents = list("inaprovaline" = 2, "sterilizine" = 1, "foaming_agent" = 1) //Main way to obtain is destiller
+	result_amount = 2
+	
 /datum/chemical_reaction/dylovene
 	name = "Dylovene"
 	id = "anti_toxin"
@@ -346,6 +353,12 @@
 	required_reagents = list("inaprovaline" = 1, "anti_toxin" = 1)
 	result_amount = 2
 
+/datum/chemical_reaction/tricorlidaze
+	name = "Tricorlidaze"
+	id = "tricorlidaze"
+	result = "tricorlidaze"
+	required_reagents = list("tricordrazine" = 2, "sterilizine" = 1, "foaming_agent" = 1)//Main way to obtain is destiller
+	result_amount = 2
 /datum/chemical_reaction/alkysine
 	name = "Alkysine"
 	id = "alkysine"
@@ -369,6 +382,12 @@
 	required_reagents = list("oxygen" = 1, "phosphorus" = 1, "kelotane" = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/dermaline/topical
+	name = "Dermalaze"
+	id = "dermalaze"
+	result = "dermalaze"
+	required_reagents = list("dermaline" = 2, "sterilizine" = 1, "foaming_agent" = 1)//Main way to obtain is destiller
+	result_amount = 2
 /datum/chemical_reaction/dexalinp
 	name = "Dexalin Plus"
 	id = "dexalinp"
@@ -382,6 +401,13 @@
 	result = "bicaridine"
 	required_reagents = list("inaprovaline" = 1, "carbon" = 1)
 	inhibitors = list("sugar" = 1) // Messes up with inaprovaline
+	result_amount = 2
+
+/datum/chemical_reaction/bicaridine/topical
+	name = "Bicaridaze"
+	id = "bicaridaze"
+	result = "bicaridaze"
+	required_reagents = list("bicaridine" = 2, "sterilizine" = 1, "foaming_agent" = 1)//Main way to obtain is destiller
 	result_amount = 2
 
 /datum/chemical_reaction/myelamine
@@ -1757,6 +1783,34 @@
 	result = "grapesoda"
 	required_reagents = list("grapejuice" = 2, "cola" = 1)
 	result_amount = 3
+
+/datum/chemical_reaction/drinks/astral_wind
+	name = "Astral Wind"
+	id = "astral_wind"
+	result = "astral_wind"
+	required_reagents = list("spacemountainwind" = 2, "space_up" = 2, "spacespice" = 1)
+	result_amount = 5
+
+/datum/chemical_reaction/drinks/solar_wind
+	name = "Solar Wind"
+	id = "solar_wind"
+	result = "solar_wind"
+	required_reagents = list("astral_wind" = 1, "capsaicin" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/drinks/vortex_chill
+	name = "Vortex Chill"
+	id = "vortex_chill"
+	result = "vortex_chill"
+	required_reagents = list("astral_wind" = 1, "mint" = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/drinks/nebula_riptide
+	name = "Nebula Riptide"
+	id = "nebula_riptide"
+	result = "nebula_riptide"
+	required_reagents = list("vortex_chill" = 1, "solar_wind" = 1)
+	result_amount = 1
 
 /datum/chemical_reaction/drinks/sbiten
 	name = "Sbiten"
